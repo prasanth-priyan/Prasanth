@@ -8,17 +8,20 @@
 
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/bstyle.css">
 </head>
 
 <body>
-
+    <!--Header with navbar-->
     <header class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
-            <div class="navbar-header">
+            <!--Header logo-->
+            <a href="#" class="navbar-left"><img class="img-fluid" src="img/logo.png"></a>
+            <!--Header navbar-->
+            <div class="navbar-header visible-lg">
                 <a class="navbar-brand" href="#">Very Good</a>
             </div>
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,41 +36,149 @@
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
+                
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
-                            Contact us
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Phone</a>
-                            <a class="dropdown-item" href="#">Mail</a>
-                            <a class="dropdown-item" href="#">Office Locations</a>
-                        </div>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact Us
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Phone</a></li>
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Office Locations</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
         </div>
+    
     </header>
+
+    <!--Carousel-->
+    <section id="myCarousel" class="carousel slide" data-ride="carousel"> 
+        <!-- Indicators -->
+        
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>Donec sit amet mi imperdiet mauris viverra accumsan ut at libero.
+        <div class="carousel-inner">
+            <div class="item active"> <img src="img/furniture.jpg" alt="furniture">
+                <div class="container">
+                    <div class="carousel-caption">
+                    <h1>Furniture</h1>
+                    <h2>Fine woodworking</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="item"> <img src="img/fittings.jpg" alt="fittings">
+                <div class="container">
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><div class="carousel-caption">
+                    <h1>Fittings</h1>
+                    <h2>Excellent craftsmanship</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="item"> <img src="img/tools.jpg" alt="tools">
+                <div class="container">
+                    <div class="carousel-caption">
+                    <h1>Tools</h1>
+                    <h2>Perfect tools</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> 
+    </section>
 
     <div class="parallax"></div>
 
-    <section>
-
-    </section>
-
+    <!--Hero Section with Jumbotron-->
     <section class="jumbotron">
-        <div class="container-fluid">
+        <div class="container-fluid text-center">
             <h1>What We Do...</h1>
+            <h2>
+                    We pride ourselves in our work. We are very good.<br>
+                    We provide excellent craftsmanship, and finely honed tools that one would be honored to use.
+            </h2>
         </div>
     </section>
 
     <div class="parallax"></div>
 
+    <!--Ending columns-->
+    <section class="container">
+        <div class="jumbotron-fluid row text-center">
+            <article class="col-lg-6">
+                <h1>About the company..</h1>
+                <p>Founded in 2005</p>
+            </article>
+            <article class="col-lg-6 hidden-sm hidden-xs">
+                <h1>Our Leaders</h1>
+                <ul class="text-left" style="list-style: none; font-size: 20px;">
+                    <li><strong>CEO</strong> - <a href="#">Ron Swanson</a></li>
+                    <li><strong>CFO</strong> - <a href="#">Tamara Swanson</a></li>
+                    <li></h2><strong>HR head</strong> - <a href="#">Leslie Knope</a></li>
+                </ul>
+            </article>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="page-footer">
+        <!-- Footer Elements -->
+        <div class="container">
+        
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                <i class="fab fa-facebook-f"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                <i class="fab fa-twitter"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1">
+                <i class="fab fa-google-plus-g"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1">
+                <i class="fab fa-linkedin-in"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-dribbble mx-1">
+                <i class="fab fa-dribbble"> </i>
+                </a>
+            </li>
+            </ul>
+            <!-- Social buttons -->
+        
+        </div>
+        <!-- Footer Elements -->
+        
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> VeryGood.com</a>
+        </div>
+        <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>

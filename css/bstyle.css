@@ -3,7 +3,7 @@
 }
 body, html {
   height: 100%;
-  font-family: "Advent Pro"
+  font-family: "Advent Pro";
 }
 
 .container{
@@ -12,6 +12,7 @@ body, html {
 .item-active img,.item img{
   width: 100%;
   height: auto;
+  overflow: hidden;
 }
 p{
   font-size: 20px;

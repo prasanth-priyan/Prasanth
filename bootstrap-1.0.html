@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="This is the site for a construction company">
+    <meta name="author" content="Prasanth Priyan">
+    <meta name="keywords" content="furniture,tools,fittings">
     <title>Very Good</title>
 
     <!--Bootstrap-->
@@ -16,13 +19,13 @@
 
 <body>
     <!--Header with navbar-->
-    <header class="navbar navbar-inverse navbar-fixed-top">
+    <header class="navbar navbar-inverse navbar-fixed-top" style="font-size: 20px;">
         <div class="container-fluid">
             <!--Header logo-->
             <a href="#" class="navbar-left"><img class="img-fluid" src="img/logo.png"></a>
             <!--Header navbar-->
             <div class="navbar-header visible-lg">
-                <a class="navbar-brand" href="#">Very Good</a>
+                <a class="navbar-brand" href="#" style="font-size: 20px;">Very Good</a>
             </div>
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="icon-bar"></span>
@@ -58,77 +61,91 @@
     
     </header>
 
-    <!--Carousel-->
-    <section id="myCarousel" class="carousel slide" data-ride="carousel"> 
-        <!-- Indicators -->
-        
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>Donec sit amet mi imperdiet mauris viverra accumsan ut at libero.
-        <div class="carousel-inner">
-            <div class="item active"> <img src="img/furniture.jpg" alt="furniture">
-                <div class="container">
-                    <div class="carousel-caption">
-                    <h1>Furniture</h1>
-                    <h2>Fine woodworking</h2>
+    <main>
+        <!--Carousel-->
+        <section id="myCarousel" class="carousel slide" data-ride="carousel"> 
+            <!-- Indicators -->
+            
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active"> <img src="img/furniture.jpg" alt="furniture">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Furniture</h1>
+                            <h2>Fine woodworking</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> <img src="img/fittings.jpg" alt="fittings">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Fittings</h1>
+                            <h2>Excellent craftsmanship</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> <img src="img/tools.jpg" alt="tools">
+                    <div class="container">
+                        <div class="carousel-caption">
+                        <h1>Tools</h1>
+                        <h2>Perfect tools</h2>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="item"> <img src="img/fittings.jpg" alt="fittings">
-                <div class="container">
-                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><div class="carousel-caption">
-                    <h1>Fittings</h1>
-                    <h2>Excellent craftsmanship</h2>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> 
+        </section>
+
+        <div class="parallax"></div>
+
+        <!--Hero Section with Jumbotron-->
+        <section class="jumbotron">
+            <div class="container-fluid text-center">
+                <h1>What We Dohidden...</h1>
+                <h2>
+                        We pride ourselves in our work. We are very good.<br>
+                        We provide excellent craftsmanship, and finely honed tools that one would be honored to use.
+                </h2>
+                <!-- Modal button-->
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Learn More</button>
+
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div classhidden="modal-content">
+                        <div chiddenlass="modal-body">
+                            <bhiddenutton type="button" class="close" data-dismiss="modal">&times;</button>
+                            <phidden>Loren ipsum dolor</p>
+                        </div>
                     </div>
                 </div>
+                </div>            
             </div>
-            <div class="item"> <img src="img/tools.jpg" alt="tools">
-                <div class="container">
-                    <div class="carousel-caption">
-                    <h1>Tools</h1>
-                    <h2>Perfect tools</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> 
-    </section>
+        </section>
 
-    <div class="parallax"></div>
+        <div class="parallax"></div>
 
-    <!--Hero Section with Jumbotron-->
-    <section class="jumbotron">
-        <div class="container-fluid text-center">
-            <h1>What We Do...</h1>
-            <h2>
-                    We pride ourselves in our work. We are very good.<br>
-                    We provide excellent craftsmanship, and finely honed tools that one would be honored to use.
-            </h2>
-        </div>
-    </section>
-
-    <div class="parallax"></div>
-
-    <!--Ending columns-->
-    <section class="container">
-        <div class="jumbotron-fluid row text-center">
+        <!--Ending columns-->
+        <section class="jumbotron-fluid row text-center">
             <article class="col-lg-6">
                 <h1>About the company..</h1>
                 <p>Founded in 2005</p>
             </article>
-            <article class="col-lg-6 hidden-sm hidden-xs">
+            <article class="col-lg-6 visible-lg">
                 <h1>Our Leaders</h1>
-                <ul class="text-left" style="list-style: none; font-size: 20px;">
+                <ul class="text-center" style="list-style: none; font-size: 20px;">
                     <li><strong>CEO</strong> - <a href="#">Ron Swanson</a></li>
                     <li><strong>CFO</strong> - <a href="#">Tamara Swanson</a></li>
                     <li></h2><strong>HR head</strong> - <a href="#">Leslie Knope</a></li>
                 </ul>
             </article>
-        </div>
-    </section>
+        </section>
+    </main>
     
     <!-- Footer -->
     <footer class="page-footer">
@@ -170,7 +187,7 @@
         
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="https://mdbootstrap.com/education/bootstrap/"> VeryGood.com</a>
+            <a href="#"> VeryGood.com</a>
         </div>
         <!-- Copyright -->
     

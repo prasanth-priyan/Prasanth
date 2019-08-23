@@ -4,6 +4,10 @@ body {
 .card-img-top {
 	height: auto;
 }
+
+.carousel-item img{
+    width: 100%;
+}
 /*FOOTER*/
 
 footer {
